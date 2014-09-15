@@ -1,0 +1,15 @@
+html, body, ul, figure, section, aside, header, footer, div, form {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    font-size: $font-size;
+    font-family: $font-family;
+    direction: $direction;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
