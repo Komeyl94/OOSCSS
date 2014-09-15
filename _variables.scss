@@ -1,0 +1,17 @@
+/****** fonts ******/
+$font-size: 16px; // in px
+$font-family: WMitra, Calibri;
+
+/****** sizes ******/
+$large: 75em; // in em
+$medium: 45em; // in em
+$small: 30em; // in em
+
+/****** colors ******/
+$black: #423F37; // never use pure black
+$base-color: white;
+$link-color: $black;
+$link-hover: gray;
+
+/****** helpers  ******/
+$direction: rtl;
