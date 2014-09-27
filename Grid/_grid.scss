@@ -54,6 +54,10 @@
     }
 }
 
+[class*='.widget-'], .widget {
+    width: $full;
+}
+
 // Mobile 
 @media (max-width: $small) {
     @for $i from $start through $end {
@@ -69,7 +73,9 @@
     .bit-6,
     .bit-8,
     .bit-10,
-    .bit-12 {
+    .bit-12,
+    [class*='.widget-'], 
+    .widget {
         width: $half;
     }
 
@@ -87,7 +93,9 @@
 // Landscape Tablet
 @media (min-width: $medium) and (max-width: $large) {
     .bit-2,
-    .bit-7 {
+    .bit-7,
+    [class*='.widget-'], 
+    .widget {
         width: $full;
     }
 
