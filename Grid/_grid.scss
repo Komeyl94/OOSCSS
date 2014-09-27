@@ -1,7 +1,5 @@
-/*
-Lemonade - Official Scss Port
-Created by Joe Richardson (dope)
-*/
+// Lemonade - Official Scss Port
+// Created by Joe Richardson (dope)
 
 *,
 *:before,
@@ -13,7 +11,23 @@ Created by Joe Richardson (dope)
 
 
 // Set the width of the grid
-.frame {
+.wrapper {
+    max-width: 100%;
+    @include breakpoint(large) {
+        width: $large;
+    };
+    @include breakpoint(medium) {
+        width: $medium;
+    };
+    @include breakpoint(small) {
+        width: $small;
+    };
+    @include breakpoint(xsmall) {
+        width: 100%;
+    };
+}
+
+.frame, .wrapper {
     margin: 0 auto;
     // clearfix
     &:after {

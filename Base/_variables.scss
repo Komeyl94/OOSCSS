@@ -1,17 +1,29 @@
-/****** fonts ******/
+// ****** fonts ******
 $font-size: 16px; // in px
 $font-family: WMitra, Calibri;
 
-/****** sizes ******/
+// ****** sizes ******
 $large: 75em; // in em
 $medium: 45em; // in em
 $small: 30em; // in em
 
-/****** colors ******/
+// ****** colors ******
 $black: #423F37; // never use pure black
 $base-color: white;
 $link-color: $black;
 $link-hover: gray;
 
-/****** helpers  ******/
+// ****** helpers  ******
 $direction: rtl;
+
+// ****** grid  ******
+// Helpers
+$full:        100%;
+$half:        100% / 2;
+
+// Example padding for grid
+$bit-padding: 0;
+
+// Grid widths
+$start:       1;
+$end:         12;

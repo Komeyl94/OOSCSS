@@ -1,5 +1,6 @@
 # SASS(SCSS) is great, Object Oriented SASS Is AWESOME!
-## What's going on in here?
+## Start styling from here!
+### What's going on in here?
 #### Well, everything is clear! 
 - I used a version of [normalize](https://github.com/kristerkari/normalize.scss) to stop browsers from doing whatever they want! And there are several files to start with.
 - The Mixins file is the first one included. It contains several mixins for REM **font-size** and **line-height** generating, **breakpoints**, **generating arrow** (i love this one!) and some others for generating prefixes automatically. Fill free to edit it.
@@ -7,7 +8,7 @@
 - And there is the Defaults. Put everything that is going to be styled your way in the theme, like ul or a tags, in this file. It's easier to manage it later.
 - I like to use [Lemonade](https://github.com/dope/lemonade) grid system. It's so light and easy to use. Ofcourse if you want to use some other grid system, inform me!
 
-## CSS styling TO-DO list
+### CSS styling TO-DO list
 
 #### Reset EVERYTHING // Not everything exactly, reset the things that you've used.
 - Reset using your own defaults. Most important ones, H1-6, Inputs and container tags, exp. Div or Figure.
